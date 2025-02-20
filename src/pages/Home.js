@@ -20,15 +20,15 @@ const Home = () => {
 
   const images = [
     {
-      url: "https://images.prismic.io/milanmagic/56576f2c-b15c-40f9-94a6-8c4bc24625ab_backhand+mehndi+design.jpg?auto=compress,format&rect=0,0,1470,752&w=1024&h=524",
+      url: "https://i.ibb.co/jk5Lx1T5/Whats-App-Image-2025-02-20-at-9-36-41-PM.jpg",
       message: "Now Mehendi Cones Available Online!",
     },
     {
-      url: "https://assets.vogue.in/photos/5ce424d02e615019d80b0184/master/pass/history-of-bridal-mehandi.jpg",
+      url: "https://i.ibb.co/bR3ydnGt/Whats-App-Image-2025-02-20-at-9-15-34-PM.jpg",
       message: "Bridal and Simple Cones Available",
     },
     {
-      url: "https://i.ibb.co/bR3ydnGt/Whats-App-Image-2025-02-20-at-9-15-34-PM.jpg",
+      url: "https://i.ibb.co/wr0N2d0s/Whats-App-Image-2025-02-20-at-9-29-01-PM.jpg",
       message: "Beautiful Results of our Mehendi Cones",
     },
   ];
