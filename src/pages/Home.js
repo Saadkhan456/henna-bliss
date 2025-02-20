@@ -28,7 +28,7 @@ const Home = () => {
       message: "Bridal and Simple Cones Available",
     },
     {
-      url: "https://c1.wallpaperflare.com/preview/489/1014/368/mehndi-henna-indian-wedding-hand.jpg",
+      url: "https://i.ibb.co/bR3ydnGt/Whats-App-Image-2025-02-20-at-9-15-34-PM.jpg",
       message: "Beautiful Results of our Mehendi Cones",
     },
   ];
