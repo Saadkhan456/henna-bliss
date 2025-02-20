@@ -20,7 +20,7 @@ const Home = () => {
 
   const images = [
     {
-      url: "https://i.ibb.co/jk5Lx1T5/Whats-App-Image-2025-02-20-at-9-36-41-PM.jpg",
+      url: "https://i.ibb.co/Q3H7x3G8/Whats-App-Image-2025-02-20-at-10-07-31-PM.jpg",
       message: "Now Mehendi Cones Available Online!",
     },
     {
