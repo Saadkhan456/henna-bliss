@@ -41,7 +41,7 @@ const Home = () => {
       description:
         "High-quality mehndi cone for intricate and beautiful designs. Perfect for beginners and professionals alike.",
       image:
-        "https://i.ibb.co/VcSZtXVj/Whats-App-Image-2025-02-16-at-6-47-53-PM-1.jpg",
+        "https://i.ibb.co/N6X6LTs0/Whats-App-Image-2025-02-20-at-9-10-59-PM.jpg",
     },
     {
       id: 2,
