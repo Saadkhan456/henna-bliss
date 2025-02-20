@@ -48,7 +48,7 @@ const Home = () => {
       name: "Bridal Cone",
       price: 20,
       description: "Bridal Cone for Brides and big celebrations.",
-      image: "https://i.ibb.co/vCLgpvZG/Whats-App-Image-2025-02-20-at-8-56-47-PM.jpg",
+      image: "https://www.imghippo.com/i/PFg8300GGo.jpeg",
     },
   ];
 
