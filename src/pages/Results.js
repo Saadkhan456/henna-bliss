@@ -18,7 +18,7 @@ const Results = () => {
         </div>
         <div className="md:w-1/2">
           <img
-            src="https://i.imghippo.com/files/nhC6606hcQ.jpeg"
+            src="https://i.ibb.co/bR3ydnGt/Whats-App-Image-2025-02-20-at-9-15-34-PM.jpg"
             alt="Bridal Mehendi Cone Result"
             className="rounded-lg shadow-lg"
           />
