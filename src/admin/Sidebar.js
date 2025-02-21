@@ -4,8 +4,8 @@ import { X } from "lucide-react"; // Close icon
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
   return (
-    <div>
-      {/* Mobile Overlay */}
+    <>
+      {/* Mobile Overlay - Ensures Sidebar is in Front */}
       {isOpen && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
@@ -15,9 +15,8 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
 
       {/* Sidebar Container */}
       <div
-        className={`fixed lg:relative top-0 left-0 h-full bg-gray-900 text-white w-72 transition-transform transform ${
-          isOpen ? "translate-x-0" : "-translate-x-72"
-        } lg:translate-x-0 z-50 p-6 shadow-lg lg:shadow-none`}
+        className={`fixed lg:relative top-0 left-0 h-full w-72 bg-gray-900 text-white shadow-lg transition-transform transform z-50
+        ${isOpen ? "translate-x-0" : "-translate-x-72"} lg:translate-x-0 lg:z-auto`}
       >
         {/* Close Button (Mobile Only) */}
         <button
@@ -28,7 +27,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         </button>
 
         {/* Sidebar Header */}
-        <h2 className="text-2xl font-bold mb-6 text-center">Admin Panel</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center mt-6">Admin Panel</h2>
 
         {/* Navigation Links */}
         <ul className="space-y-3">
@@ -66,7 +65,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           </li>
         </ul>
       </div>
-    </div>
+    </>
   );
 };
 
