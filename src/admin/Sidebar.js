@@ -8,15 +8,15 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
       {/* Mobile Overlay - Ensures Sidebar is in Front */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
+          className="fixed inset-0 bg-black bg-opacity-50 z-50 lg:hidden"
           onClick={() => setIsOpen(false)}
         ></div>
       )}
 
       {/* Sidebar Container */}
       <div
-        className={`fixed lg:relative top-0 left-0 h-full w-72 bg-gray-900 text-white shadow-lg transition-transform transform z-50
-        ${isOpen ? "translate-x-0" : "-translate-x-72"} lg:translate-x-0 lg:z-auto`}
+        className={`fixed lg:relative top-0 left-0 h-full w-72 bg-gray-900 text-white shadow-2xl transition-transform transform z-60
+        ${isOpen ? "translate-x-0" : "-translate-x-72"} lg:translate-x-0`}
       >
         {/* Close Button (Mobile Only) */}
         <button
