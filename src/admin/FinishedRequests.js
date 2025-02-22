@@ -57,7 +57,7 @@ const FinishedRequests = () => {
                 <td className="border p-2">{request.email}</td>
                 <td className="border p-2">{request.phone}</td>
                 <td className="border p-2">{request.quantity}</td>
-                <td className="border p-2">${request.price}</td>
+                <td className="border p-2">₹{request.price}</td>
                 <td className="border p-2">{request.address}</td>
                 <td className="border p-2 text-green-600 font-bold">
                   Delivered
