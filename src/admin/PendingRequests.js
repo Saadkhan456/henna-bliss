@@ -91,7 +91,7 @@ const PendingRequests = () => {
                   <td className="p-3 md:p-4">{request.email}</td>
                   <td className="p-3 md:p-4">{request.phone}</td>
                   <td className="p-3 md:p-4">{request.quantity}</td>
-                  <td className="p-3 md:p-4">${request.price}</td>
+                  <td className="p-3 md:p-4">₹{request.price}</td>
                   <td className="p-3 md:p-4">{request.address}</td>
                   <td className="p-3 md:p-4 text-center">
                     <button
